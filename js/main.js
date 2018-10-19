@@ -1,5 +1,5 @@
 $(document).ready(function(){
-var sources = ["images/cayde.png", "images/destiny.jpg", "images/ghost.gif", "images/hunter.png", "images/ikora.png", "images/titan.png", "images/warlock.png", "images/zavala.jpg"];
+var sources = ["bar.png", "cherry.png", "diamond.png", "lemon.png", "seven.png", "tree.png"];
 var reel = [$("#reel1"), $("#reel2"), $("#reel3")];
 var intervals = [];
 var money = 0;
@@ -57,13 +57,13 @@ $("#stop1,#stop2,#stop3").on("click", function(event) {
     if ($('#reel1').attr('src') == $('#reel2').attr('src') && $('#reel2').attr('src') == $('#reel3').attr('src')){
       var newTotal = money + bet;
       money = newTotal
-      alert("You Won bruh!!")
+      alert("Winner, Winner, Chicken Dinner!")
     }else{
       var newTotal = money - bet;
       money = newTotal;
-      alert("Loser")
+      alert("Try Again")
     }
-    $('#purse').text(money)
+    $('#purse').text("0")
   }
 
 

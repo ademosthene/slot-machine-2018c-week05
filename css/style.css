@@ -5,12 +5,72 @@ html,body{
   margin: 0;
   padding: 0;
 }
+body{
+  background: #FFFE92;
+  font-family: 'Righteous', cursive;
+  font-weight: 600;
+}
+.top{
+  background: url("../title.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 38%;
+  width: 25%;
+  height: 200px;
+  /* border: 2px solid green;
+  border-radius: 10%; */
+}
+.mainMachine{
+  background: white;
+  border: 5px solid black;
+  border-radius: 15%;
+  width: 70%;
+  margin-left: 17%;
+}
+.pics{
+  width: 95%;
+  margin-left: 10%;
+  height: 250px;
+}
 #reel1, #reel2, #reel3{
-  width: 15%;
+  border: 4px solid black;
+  border-radius: 5%;
+  object-fit: contain;
+  margin: 50px 2% 5px 5%;
+  height: 220px;
+  width: 25%;
+  background: #FFFE92;
 }
 .buttons{
-  margin-top: 10%;
+  width: 80%;
+  margin-left: 15%;
+  margin-top: 2%;
+  margin-bottom: 10px;
 }
 #stop1, #stop2, #stop3{
-margin-left: 10%;
+margin: 0 10% 10px -3%;
+border: none;
+font-family: 'Righteous', cursive;
+font-size: 18px;
+color: white;
+background: black;
+width: 25%;
+}
+.money{
+  width: 60%;
+  margin-left: 28%;
+  margin-top: 5px;
+}
+#setButton, #betButton{
+  margin: 10px 2% 10px 1%;
+  border: none;
+  font-family: 'Righteous', cursive;
+  font-size: 16px;
+  color: white;
+  background: black;
+  width: 15%;
+}
+#setMoney, #betMoney{
+  font-family: 'Righteous', cursive;
+  font-size: 16px;
 }
