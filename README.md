@@ -1,5 +1,5 @@
-# Winner, Winner, Vegan Dinner
-This project is a to-do list for users to enter items and remove items once completed.
+# Winner, Winner, Vegan Dinner!
+This project is a slot machine for users to try their luck.
 
 **Link to project:** https://tender-brahmagupta-7fb0c7.netlify.com
 
@@ -9,15 +9,15 @@ This project is a to-do list for users to enter items and remove items once comp
 
 **Tech used:** HTML, CSS, JavaScript
 
-Using JavaScript I designed a simple to-do of list items. When the user enters a new to-do list item it is added unto the list. The user has the ability to click on list items as they are completed. When clicked on, the completed list items are gray with a line through. The user is also able to clear the completed items or the entire list of items.
+Using JavaScript I a traditional slot machine with three reels. The user is has the ability to set an amount and bet an amount per round. When the user clicks on "bet amount", the reels begin to rotate at a predetermined speed. As the reel rotates the images are updated from an array. Each reel has a stop button to end the rotation on the desired image. If the user stops all three reels on the same image, they have won the amount they selected for the bet. Otherwise, the user begins with $0.
 
 ## Optimizations
 
-One feature I would like to add to this project is the ability for users to edit or remove list items as they are displayed.
+One feature I would like to add to this project is the option for users to stop all reels at the same time.
 
 ## Lessons Learned:
 
-Event delegation, the ability to apply formatting and event listeners to items that are not there when the DOM renders.
+Setting time intervals for the reels. This method used randomization to spin the image sources inside of the reel, at a set speed. 
 
 ## Related Projects:
 Take a look at these cool projects that I have in my portfolio:
