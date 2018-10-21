@@ -22,7 +22,7 @@ Setting time intervals for the reels. This method used randomization to spin the
 ## Related Projects:
 Take a look at these cool projects that I have in my portfolio:
 
-**Calculator:** https://mystifying-stallman-5862e0.netlify.com/
+**Calculator:** https://pedantic-golick-4c339d.netlify.com/
 
 **Attendance List:** https://sleepy-franklin-b8d685.netlify.com/
 
